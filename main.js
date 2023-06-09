@@ -42,6 +42,9 @@ const personName = document.getElementById("personName");
 const profession = document.getElementById("profession");
 const description = document.getElementById("description");
 const surpriseMeBtn = document.getElementById("surpriseMeBtn");
+const chicken = document.querySelector(".chicken");
+
+let isChickenVisible;
 
 let people = [
   {
